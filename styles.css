@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+button{
+    background-color: #ffe97d;
+    border: 4px solid black;
+    margin: 5px;
+}
+
+.container{
+    width: 820px;
+    height: 100vh;
+    height: 745px;
+    margin: 0 auto;
+    background-color: #2034cbc5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 5px solid rgb(5, 36, 190);
+    box-shadow: 5px 5px 5px rgba(1, 1, 255, 0.806);
+}
+
+h1{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+
+#result{
+   text-align: center;
+}
+
+#result img{
+    width: 10%;
+}
+
+#text-inicio{
+    color: white;
+    font-size: 36px;
+    padding: 20px;
+}
+
+#grupo-botones{
+    margin-left: 30%;
+    display: flex;
+    width: 40%;
+}
+
+#grupo-botones > button > img{
+    width: 100%;
+}
+
+#jugadores{
+    box-shadow: 4px 4px 4px  rgb(24, 24, 186),
+                -4px -4px 4px rgb(198, 66, 66);
+    
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+#jugador-01{
+    font-family: bold;
+    color: white;
+    margin-left: 10px;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 3px;
+    width: 250px;
+    height: 30px;
+    background-color: rgb(240, 182, 8);
+}
+#jugador-02{
+    font-family: bold;
+    color: white;
+    margin-left: 10px;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 3px;
+    width: 250px;
+    height: 30px;
+    background-color: rgb(240, 182, 8);
+}
+#boton-play{
+    color: rgb(34, 34, 34);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #ffe97d;
+    border: 4px solid rgb(240, 182, 8);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+::placeholder{
+    padding: 5px;
+    color: white;
+}
+div label {
+    color: white;
+    margin-left: 10px;
+}
+
+div footer{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+div a {
+    color: white;
+    text-decoration: none;
+}

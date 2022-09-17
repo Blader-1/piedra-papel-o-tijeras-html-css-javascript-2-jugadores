@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel O Tijeras | Blader</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Piedra, Papel O Tijeras</h1>
+
+        <form name="registro-jugadores" id="jugadores" onload="registro()" method="post">
+          <label>Jugador 1<input id="jugador-01" name="jugador-01" type="text" placeholder="Ingrese su nombre Jugador 1"></label>  
+            <label>Jugador 2<input id="jugador-02" name="jugador-02" type="text" placeholder="Ingrese su nombre Jugador 2"></label>
+            <button id="boton-play" type="submit" value="enviar">Jugar</button>
+        </form>
+
+        <div id="result">
+    
+            <img id="maquina-img" src="img/rock.svg">
+
+            <div id="text-inicio">
+                Escoje una opcion
+            </div>
+
+            <img id="usurio-img" src="img/rock.svg">
+
+        </div>
+
+        <div id="grupo-botones">
+            <button id="piedra" type="button">
+                <img src="img/rock.svg"/>
+            </button>
+            <button id="papel" type="button">
+                <img src="img/paper.svg"/>
+            </button>
+            <button id="tijeras" type="button">
+                <img src="img/scissors.svg"/>
+            </button>
+        </div>
+
+        <footer>Creado por <a target="_blank">Cristian Extiven "Blader"</a></footer>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
