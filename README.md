@@ -1,5 +1,3 @@
 # rock-paper-scissors
+Solo ejecutar el html y disfrutar del juego
 
-Small game developed with Vanilla JavaScript.
-
-You can play in [here](https://rock-paper-scissors-kikopalomares.netlify.app/)
