@@ -5,6 +5,14 @@
     font-family: sans-serif;
 }
 
+@media screen and (max-width: 1200px){
+    .container{
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+    
+
 footer{
     text-align: center;
     padding: 10px;
@@ -22,6 +30,7 @@ button{
 }
 
 .container{
+    
     width: 820px;
     height: 100vh;
     height: 745px;
@@ -52,16 +61,28 @@ h1{
 #text-inicio{
     color: white;
     font-size: 36px;
-    padding: 20px;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 75px;
 }
 
-#grupo-botones{
-    margin-left: 30%;
+#grupo-botones-jugador01{
+    margin-left: 35%;
     display: flex;
-    width: 40%;
+    width: 35%;
 }
 
-#grupo-botones > button > img{
+#grupo-botones-jugador01 > button > img{
+    width: 100%;
+}
+
+#grupo-botones-jugador02{
+    margin-left: 35%;
+    display: flex;
+    width: 35%;
+}
+
+#grupo-botones-jugador02 > button > img{
     width: 100%;
 }
 
@@ -73,7 +94,7 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
 }
 #jugador-01{
     font-family: bold;
@@ -95,6 +116,7 @@ h1{
     height: 30px;
     background-color: rgb(240, 182, 8);
 }
+
 #boton-play{
     color: rgb(34, 34, 34);
     width: 70px;
@@ -118,11 +140,50 @@ div label {
 }
 
 div footer{
-    text-align: center;
+    margin-left: 40px;
     padding: 10px;
     color: white;
 }
 div a {
     color: white;
     text-decoration: none;
+}
+
+.j1 {
+    
+    position: absolute;   
+    top: 480px;
+    right: 785px;
+    
+}
+.j1m{
+    position: absolute;   
+    top: 480px;
+    right: 630px;
+}
+
+.j2 {
+    position: absolute;   
+    top: 290px;
+    right: 790px;
+}
+
+.j2m {
+    position: absolute;   
+    top: 290px;
+    right: 635px;
+}
+#jugador01-img{
+   margin-left: 45px;
+}
+#jugador02-img{
+    margin-left: 45px;
+    padding-top: 30px;
+}
+
+#maquina2-img{
+    margin-left: 70px;
+}
+#maquina-img{
+    margin-left: 70px;
 }

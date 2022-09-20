@@ -10,25 +10,46 @@
     <div class="container">
         <h1>Piedra, Papel O Tijeras</h1>
 
-        <form name="registro-jugadores" id="jugadores" onload="registro()" method="post">
-          <label>Jugador 1<input id="jugador-01" name="jugador-01" type="text" placeholder="Ingrese su nombre Jugador 1"></label>  
+        <div id="jugadores">
+            <label>Jugador 1<input id="jugador-01" name="jugador-01" type="text" placeholder="Ingrese su nombre Jugador 1"></label>  
             <label>Jugador 2<input id="jugador-02" name="jugador-02" type="text" placeholder="Ingrese su nombre Jugador 2"></label>
-            <button id="boton-play" type="submit" value="enviar">Jugar</button>
-        </form>
+            <button id="boton-play">Jugar</button>
+        </div>
+          
+
+        <div id="grupo-botones-jugador02" onclick="return jugador_02()">
+            <button id="pie" type="button">
+                <img src="img2/rock.svg"/>
+            </button>
+            <button id="pap" type="button">
+                <img src="img2/paper.svg"/> 
+            </button>
+            <button id="tij" type="button">
+                 <img src="img2/scissors.svg"/>
+            </button>
+        </div>
 
         <div id="result">
     
-            <img id="maquina-img" src="img/rock.svg">
+            <label class="j2">Jugador 2</label><img id="jugador02-img" src="img2/rock.svg">
+            <label class="j2m">Maquina</label><img id="maquina2-img" src="img/rock.svg">
+            
+
 
             <div id="text-inicio">
                 Escoje una opcion
             </div>
 
-            <img id="usurio-img" src="img/rock.svg">
+            <label class="j1">Jugador 1</label><img id="jugador01-img" src="img/rock.svg">
+            <label class="j1m">Maquina</label><img id="maquina-img" src="img/rock.svg" >
 
         </div>
 
-        <div id="grupo-botones">
+        <div class="puntuacion">
+            <h1 id="puntos1"></h1>
+        </div>
+
+        <div id="grupo-botones-jugador01" onclick="return jugador_01()">
             <button id="piedra" type="button">
                 <img src="img/rock.svg"/>
             </button>
